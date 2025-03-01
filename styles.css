@@ -1,0 +1,97 @@
+/*general styling applying to all page*/
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*header content*/
+header {
+    padding: 0 10px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul, a {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 15px;
+    text-decoration: none;
+    margin: 0;
+}
+.header-content {
+    display: flex;
+}
+
+.placeholder {
+    width: 350px;
+    height: 200px;
+    background: gray;
+}
+/*end of header content*/
+
+/*random information and boxes*/
+/*white area*/
+h2 {
+    text-align: center;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container, .subtext-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 2px solid #3882F6;
+}
+
+.subtext {
+    width: 100px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/*grey area*/
+.cit {
+    background: #E5E7EB;
+    padding: 100px 100px;
+}
+/*end of info area and boxes*/
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+}
+
+.button-footer {
+    margin: auto;
+}
