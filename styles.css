@@ -162,3 +162,14 @@ footer{
     color: white;
     padding: 3px 10px;
 }
+
+.copyright {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: white;
+}
